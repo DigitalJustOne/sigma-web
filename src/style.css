@@ -70,8 +70,26 @@ body { font-family: 'Outfit', sans-serif; overflow-x: hidden; width: 100%; }
 }
 
 #navbar.nav-scrolled #nav-logo {
-    width: 2.5rem !important;
-    height: 2.5rem !important;
+    width: 2.25rem !important;
+    height: 2.25rem !important;
+}
+#navbar.nav-scrolled #nav-title {
+    font-size: 1.125rem !important;
+}
+#navbar.nav-scrolled #nav-subtitle {
+    font-size: 0.625rem !important;
+}
+@media (min-width: 640px) {
+    #navbar.nav-scrolled #nav-logo {
+        width: 2.5rem !important;
+        height: 2.5rem !important;
+    }
+    #navbar.nav-scrolled #nav-title {
+        font-size: 1.25rem !important;
+    }
+    #navbar.nav-scrolled #nav-subtitle {
+        font-size: 0.75rem !important;
+    }
 }
 
 .geometric-pattern {
