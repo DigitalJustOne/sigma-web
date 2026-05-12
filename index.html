@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGMA Parafinado y Empaques | Especialistas en Empaques de Papel para Alimentos</title>
+    <meta name="description" content="Empaques de papel para alimentos en Colombia. Cajas, bolsas, conos y papeles parafinados biodegradables personalizados para restaurantes y negocios de comida.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Outfit', 'sans-serif'],
+                    },
+                    colors: {
+                        sigma: {
+                            magenta: '#D916A8',
+                            magentaLight: '#F472B6',
+                            cyan: '#06B6D4',
+                            yellow: '#FACC15',
+                            dark: '#1F2937',
+                            gray: '#F9FAFB'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="text-gray-800 antialiased">
+
+    <!-- Navegación -->
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 py-3 sm:py-4">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-14 sm:h-16">
+                <div class="flex-shrink-0 flex items-center gap-2 sm:gap-3">
+                    <img src="assets/images/logo-sigma.png" alt="SIGMA" class="w-9 h-9 sm:w-10 sm:h-10 rounded-full object-cover shadow-lg">
+                    <div>
+                        <h1 class="text-xl sm:text-2xl font-bold tracking-tight text-gray-900">SIGMA</h1>
+                        <p class="text-[10px] sm:text-xs text-gray-500 -mt-1">Parafinado y Empaques</p>
+                    </div>
+                </div>
+                
+                <div class="hidden md:flex space-x-6 lg:space-x-8">
+                    <a href="#inicio" class="text-sm lg:text-base text-gray-700 hover:text-sigma-magenta font-medium transition-colors">Inicio</a>
+                    <a href="#especialidad" class="text-sm lg:text-base text-gray-700 hover:text-sigma-magenta font-medium transition-colors">Especialidad</a>
+                    <a href="#empaques" class="text-sm lg:text-base text-gray-700 hover:text-sigma-magenta font-medium transition-colors">Empaques</a>
+                    <a href="#diferenciadores" class="text-sm lg:text-base text-gray-700 hover:text-sigma-magenta font-medium transition-colors">¿Por qué SIGMA?</a>
+                    <a href="#proceso" class="text-sm lg:text-base text-gray-700 hover:text-sigma-magenta font-medium transition-colors">Proceso</a>
+                    <a href="#contacto" class="px-4 lg:px-5 py-1.5 lg:py-2 rounded-full bg-gradient-to-r from-sigma-magenta to-pink-500 text-white font-medium text-sm lg:text-base hover:shadow-lg transition-all">Cotizar</a>
+                </div>
+
+                <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg text-gray-700 hover:bg-gray-100">
+                    <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-4 pt-2 pb-4 space-y-1">
+                <a href="#inicio" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-sigma-magenta hover:bg-gray-50">Inicio</a>
+                <a href="#especialidad" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-sigma-magenta hover:bg-gray-50">Especialidad</a>
+                <a href="#empaques" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-sigma-magenta hover:bg-gray-50">Empaques</a>
+                <a href="#diferenciadores" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-sigma-magenta hover:bg-gray-50">¿Por qué SIGMA?</a>
+                <a href="#proceso" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-sigma-magenta hover:bg-gray-50">Proceso</a>
+                <a href="#contacto" class="block px-3 py-2 rounded-md text-base font-medium text-sigma-magenta font-semibold">Cotizar ahora</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="inicio" class="gradient-hero geometric-pattern min-h-screen flex items-center pt-14 sm:pt-20 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-20 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-6 sm:gap-12 items-center">
+                <div class="fade-in-up">
+                    <div class="inline-flex items-center gap-1 sm:gap-2 px-3 sm:px-4 py-2 rounded-full bg-white/80 backdrop-blur-sm border border-pink-100 text-sigma-magenta font-semibold text-xs sm:text-sm mb-4 sm:mb-6 shadow-sm w-auto">
+                        <span class="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-sigma-magenta animate-pulse flex-shrink-0"></span>
+                        <span class="leading-tight">Especialistas en empaques para alimentos en Colombia</span>
+                    </div>
+                    <h1 class="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-extrabold text-gray-900 leading-tight mb-4 sm:mb-6">
+                        Empaques de papel para alimentos que <span class="text-transparent bg-clip-text bg-gradient-to-r from-sigma-magenta via-purple-500 to-sigma-cyan">cuidan tu producto</span> y el planeta
+                    </h1>
+                    <p class="text-base sm:text-lg md:text-xl text-gray-600 mb-5 sm:mb-8 leading-relaxed max-w-lg">
+                        Bolsas y cajas biodegradables, parafinadas e impresas para restaurantes, comidas rápidas, panaderías y negocios de alimentos.
+                    </p>
+                    <div class="flex flex-wrap gap-2 sm:gap-4">
+                        <a href="#empaques" class="btn-primary px-5 sm:px-8 py-2.5 sm:py-4 rounded-full text-white font-bold text-sm sm:text-lg inline-flex items-center gap-2">
+                            Ver empaques para alimentos
+                            <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                        </a>
+                        <a href="#contacto" class="btn-secondary px-5 sm:px-8 py-2.5 sm:py-4 rounded-full border-2 border-gray-800 text-gray-800 font-bold text-sm sm:text-lg">
+                            Cotizar ahora
+                        </a>
+                    </div>
+                    
+                    <div class="hero-badges">
+                        <div>
+                            <svg class="text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                            <span>Biodegradables</span>
+                        </div>
+                        <div>
+                            <svg class="text-sigma-cyan" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                            <span>Parafinados</span>
+                        </div>
+                        <div>
+                            <svg class="text-sigma-magenta" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                            <span>Personalizados</span>
+                        </div>
+                    </div>
+                </div>
+                
+                    <div class="hero-cards relative lg:h-[600px] items-center justify-center fade-in-up" style="animation-delay: 0.2s">
+                    <div class="absolute inset-0 bg-gradient-to-tr from-pink-200/30 via-cyan-200/30 to-yellow-200/30 rounded-full blur-3xl"></div>
+                    <div class="relative grid grid-cols-2 gap-4 floating">
+                        <div class="space-y-4 mt-8">
+                            <div class="bg-white p-4 rounded-2xl shadow-xl transform -rotate-3 border border-gray-100">
+                                <div class="w-full h-24 sm:h-32 bg-gradient-to-br from-gray-100 to-gray-200 rounded-xl flex items-center justify-center text-gray-400">
+                                    <svg class="w-12 h-12 sm:w-16 sm:h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+                                </div>
+                                <p class="text-center mt-2 font-semibold text-gray-700 text-sm">Bolsas Erphac</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-2xl shadow-xl transform rotate-2 border border-gray-100">
+                                <div class="w-full h-24 sm:h-32 bg-gradient-to-br from-yellow-100 to-orange-100 rounded-xl flex items-center justify-center text-yellow-600">
+                                    <svg class="w-12 h-12 sm:w-16 sm:h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+                                </div>
+                                <p class="text-center mt-2 font-semibold text-gray-700 text-sm">Cajas Hamburguesa</p>
+                            </div>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="bg-white p-4 rounded-2xl shadow-xl transform rotate-3 border border-gray-100">
+                                <div class="w-full h-24 sm:h-32 bg-gradient-to-br from-pink-100 to-rose-100 rounded-xl flex items-center justify-center text-pink-600">
+                                    <svg class="w-12 h-12 sm:w-16 sm:h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"/></svg>
+                                </div>
+                                <p class="text-center mt-2 font-semibold text-gray-700 text-sm">Conos para Papas</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-2xl shadow-xl transform -rotate-2 border border-gray-100">
+                                <div class="w-full h-24 sm:h-32 bg-gradient-to-br from-cyan-100 to-blue-100 rounded-xl flex items-center justify-center text-cyan-600">
+                                    <svg class="w-12 h-12 sm:w-16 sm:h-16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                                </div>
+                                <p class="text-center mt-2 font-semibold text-gray-700 text-sm">Papeles Parafinados</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUIÉNES SOMOS -->
+    <section id="especialidad" class="py-12 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-2 gap-8 sm:gap-16 items-center">
+                <div class="fade-in-up">
+                    <h2 class="text-xs sm:text-sm font-bold text-sigma-magenta uppercase tracking-wider mb-2">Nuestra Especialidad</h2>
+                    <h3 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">Especialistas en empaques de papel para alimentos</h3>
+                    <p class="text-base sm:text-lg text-gray-600 mb-6 leading-relaxed">
+                        En SIGMA nos enfocamos exclusivamente en empaques para alimentos en papeles biodegradables y parafinados. Trabajamos con restaurantes, comidas rápidas, cafeterías, panaderías, food trucks y negocios de alimentos que buscan presentación, funcionalidad y responsabilidad ambiental.
+                    </p>
+                    <p class="text-base sm:text-lg text-gray-600 mb-8 leading-relaxed">
+                        Nuestros empaques se fabrican en papeles de <strong>280gr y 300gr</strong>, personalizados con el logo de tu negocio. Se laminan por dentro para resistir salsas, líquidos y aceites, garantizando un transporte seguro de tus comidas.
+                    </p>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div class="flex items-start gap-3 p-4 rounded-xl bg-gray-50 border border-gray-100">
+                            <div class="w-10 h-10 rounded-lg bg-green-100 text-green-600 flex items-center justify-center flex-shrink-0">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900">Papeles parafinados y antigrasa</h4>
+                                <p class="text-sm text-gray-500 mt-1">Ideales para comidas con alto contenido de grasa</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3 p-4 rounded-xl bg-gray-50 border border-gray-100">
+                            <div class="w-10 h-10 rounded-lg bg-green-100 text-green-600 flex items-center justify-center flex-shrink-0">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900">Empaques biodegradables</h4>
+                                <p class="text-sm text-gray-500 mt-1">Materiales reciclables y amigables con el medio ambiente</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3 p-4 rounded-xl bg-gray-50 border border-gray-100">
+                            <div class="w-10 h-10 rounded-lg bg-green-100 text-green-600 flex items-center justify-center flex-shrink-0">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900">Impresión 1 tinta o full color</h4>
+                                <p class="text-sm text-gray-500 mt-1">Según la necesidad de tu marca</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3 p-4 rounded-xl bg-gray-50 border border-gray-100">
+                            <div class="w-10 h-10 rounded-lg bg-green-100 text-green-600 flex items-center justify-center flex-shrink-0">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900">Producción por volumen</h4>
+                                <p class="text-sm text-gray-500 mt-1">Para negocios de alimentos con altos volúmenes de venta</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative fade-in-up" style="animation-delay: 0.2s">
+                    <div class="absolute -inset-4 bg-gradient-to-r from-sigma-magenta/20 to-sigma-cyan/20 rounded-3xl blur-2xl"></div>
+                    <div class="relative bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border border-gray-100">
+                        <div class="grid grid-cols-2 gap-3 sm:gap-4">
+                            <div class="space-y-3 sm:space-y-4">
+                                <div class="h-24 sm:h-32 bg-gradient-to-br from-pink-500 to-rose-400 rounded-2xl flex items-center justify-center text-white shadow-lg">
+                                    <svg class="w-8 h-8 sm:w-12 sm:h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+                                </div>
+                                <div class="h-28 sm:h-40 bg-gradient-to-br from-cyan-500 to-blue-400 rounded-2xl flex items-center justify-center text-white shadow-lg">
+                                    <svg class="w-8 h-8 sm:w-12 sm:h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/></svg>
+                                </div>
+                            </div>
+                            <div class="space-y-3 sm:space-y-4 mt-4 sm:mt-8">
+                                <div class="h-28 sm:h-40 bg-gradient-to-br from-yellow-400 to-orange-400 rounded-2xl flex items-center justify-center text-white shadow-lg">
+                                    <svg class="w-8 h-8 sm:w-12 sm:h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                                </div>
+                                <div class="h-24 sm:h-32 bg-gradient-to-br from-purple-500 to-indigo-400 rounded-2xl flex items-center justify-center text-white shadow-lg">
+                                    <svg class="w-8 h-8 sm:w-12 sm:h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-6 text-center">
+                            <p class="text-sm text-gray-500">Tipos de papel disponibles</p>
+                            <div class="flex flex-wrap justify-center gap-2 sm:gap-3 mt-3">
+                                <span class="px-2 sm:px-3 py-1 rounded-full bg-pink-50 text-sigma-magenta text-xs font-semibold">Natural Kraft</span>
+                                <span class="px-2 sm:px-3 py-1 rounded-full bg-pink-50 text-sigma-magenta text-xs font-semibold">Kraft</span>
+                                <span class="px-2 sm:px-3 py-1 rounded-full bg-pink-50 text-sigma-magenta text-xs font-semibold">Ibema</span>
+                                <span class="px-2 sm:px-3 py-1 rounded-full bg-pink-50 text-sigma-magenta text-xs font-semibold">Propalpoly</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LÍNEAS DE EMPAQUE -->
+    <section id="empaques" class="py-12 sm:py-24 bg-gray-50 geometric-pattern">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-8 sm:mb-16 fade-in-up">
+                <h3 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">Líneas de empaque para alimentos</h3>
+                <p class="text-base sm:text-lg text-gray-600">Soluciones de empaque diseñadas específicamente para el sector gastronómico. Resistencia, presentación y personalización en cada producto.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+                <!-- Bolsas -->
+                <div class="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-lg card-hover border border-gray-100 fade-in-up">
+                    <div class="category-icon w-12 h-12 sm:w-14 sm:h-14 rounded-2xl flex items-center justify-center mb-6 text-sigma-magenta">
+                        <svg class="w-6 h-6 sm:w-7 sm:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+                    </div>
+                    <h4 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3">Bolsas para Alimentos</h4>
+                    <p class="text-gray-600 mb-4 leading-relaxed">Bolsas de papel resistentes para comidas rápidas, panadería y productos empacados.</p>
+                    <ul class="space-y-2 text-sm text-gray-500 mb-6">
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-sigma-magenta"></span>Bolsa Erphac (para llevar)</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-sigma-magenta"></span>Bolsas para carbón / parrilla</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-sigma-magenta"></span>Bolsas para panadería y pastelería</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-sigma-magenta"></span>Bolsas para snacks</li>
+                    </ul>
+                    <div class="pt-4 border-t border-gray-100">
+                        <span class="text-xs font-semibold text-sigma-magenta uppercase tracking-wide">Ideal para: Comidas rápidas, delivery, panaderías</span>
+                    </div>
+                </div>
+
+                <!-- Cajas para comidas rápidas -->
+                <div class="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-lg card-hover border border-gray-100 fade-in-up" style="animation-delay: 0.1s">
+                    <div class="category-icon w-12 h-12 sm:w-14 sm:h-14 rounded-2xl flex items-center justify-center mb-6 text-sigma-cyan">
+                        <svg class="w-6 h-6 sm:w-7 sm:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>
+                    </div>
+                    <h4 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3">Cajas para Comidas Rápidas</h4>
+                    <p class="text-gray-600 mb-4 leading-relaxed">Cajas robustas con laminado interior para salsas y aceites. Perfectas para hamburgueserías y restaurantes.</p>
+                    <ul class="space-y-2 text-sm text-gray-500 mb-6">
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-sigma-cyan"></span>Hamburguesas (estándar, Burger Master, mariposa)</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-sigma-cyan"></span>Pollo (pieza, combos, broaster)</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-sigma-cyan"></span>Lasagna, perros calientes, salchipapas</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-sigma-cyan"></span>Sushi y comidas rápidas en general</li>
+                    </ul>
+                    <div class="pt-4 border-t border-gray-100">
+                        <span class="text-xs font-semibold text-sigma-cyan uppercase tracking-wide">Ideal para: Hamburgueserías, restaurantes, sushi bars</span>
+                    </div>
+                </div>
+
+                <!-- Empaques especiales -->
+                <div class="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-lg card-hover border border-gray-100 fade-in-up" style="animation-delay: 0.2s">
+                    <div class="category-icon w-12 h-12 sm:w-14 sm:h-14 rounded-2xl flex items-center justify-center mb-6 text-sigma-yellow">
+                        <svg class="w-6 h-6 sm:w-7 sm:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                    </div>
+                    <h4 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3">Empaques Especiales</h4>
+                    <p class="text-gray-600 mb-4 leading-relaxed">Soluciones creativas para presentaciones únicas y porciones individuales.</p>
+                    <ul class="space-y-2 text-sm text-gray-500 mb-6">
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-yellow-500"></span>Bolsillos para hamburguesa (wrap/sleeve)</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-yellow-500"></span>Conos de papel para papas y snacks</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-yellow-500"></span>Empaques tipo pocket o bolsillo</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-yellow-500"></span>Platos y bandejas de cartón</li>
+                    </ul>
+                    <div class="pt-4 border-t border-gray-100">
+                        <span class="text-xs font-semibold text-yellow-600 uppercase tracking-wide">Ideal para: Food trucks, snacks, comidas callejeras</span>
+                    </div>
+                </div>
+
+                <!-- Cajas específicas -->
+                <div class="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-lg card-hover border border-gray-100 fade-in-up">
+                    <div class="category-icon w-12 h-12 sm:w-14 sm:h-14 rounded-2xl flex items-center justify-center mb-6 text-purple-600">
+                        <svg class="w-6 h-6 sm:w-7 sm:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+                    </div>
+                    <h4 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3">Cajas por Tipo de Alimento</h4>
+                    <p class="text-gray-600 mb-4 leading-relaxed">Diseños específicos según el formato y presentación de tu producto estrella.</p>
+                    <ul class="space-y-2 text-sm text-gray-500 mb-6">
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-purple-500"></span>Wok (500gr, 600gr, 1000gr, 1100gr)</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-purple-500"></span>Empanadas, crepes, perros sencillos y especiales</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-purple-500"></span>Alitas (pequeña y especial), picada</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-purple-500"></span>Maletines para pollo y buñuelos</li>
+                    </ul>
+                    <div class="pt-4 border-t border-gray-100">
+                        <span class="text-xs font-semibold text-purple-600 uppercase tracking-wide">Ideal para: Menús específicos y combos</span>
+                    </div>
+                </div>
+
+                <!-- Porta productos -->
+                <div class="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-lg card-hover border border-gray-100 fade-in-up" style="animation-delay: 0.1s">
+                    <div class="category-icon w-12 h-12 sm:w-14 sm:h-14 rounded-2xl flex items-center justify-center mb-6 text-orange-600">
+                        <svg class="w-6 h-6 sm:w-7 sm:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+                    </div>
+                    <h4 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3">Porta Productos</h4>
+                    <p class="text-gray-600 mb-4 leading-relaxed">Empaques abiertos y funcionales para consumo inmediato y presentación en mostrador.</p>
+                    <ul class="space-y-2 text-sm text-gray-500 mb-6">
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span>Porta papas y porta arepas</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span>Caja arepa y porta comidas</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span>Lechona (300gr, 400gr, 600gr)</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span>Platos de cartón (varias referencias)</li>
+                    </ul>
+                    <div class="pt-4 border-t border-gray-100">
+                        <span class="text-xs font-semibold text-orange-600 uppercase tracking-wide">Ideal para: Comidas callejeras, eventos</span>
+                    </div>
+                </div>
+
+                <!-- Papeles y parafinados -->
+                <div class="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 shadow-lg card-hover border border-gray-100 fade-in-up" style="animation-delay: 0.2s">
+                    <div class="category-icon w-12 h-12 sm:w-14 sm:h-14 rounded-2xl flex items-center justify-center mb-6 text-pink-600">
+                        <svg class="w-6 h-6 sm:w-7 sm:h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                    </div>
+                    <h4 class="text-xl sm:text-2xl font-bold text-gray-900 mb-3">Papeles y Parafinados</h4>
+                    <p class="text-gray-600 mb-4 leading-relaxed">Papeles especiales para envolver alimentos grasos y personalizar la presentación de tu marca.</p>
+                    <ul class="space-y-2 text-sm text-gray-500 mb-6">
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-pink-500"></span>Papeles parafinados antigrasa</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-pink-500"></span>Impresión en 1 tinta o full color</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-pink-500"></span>Individuales impresos</li>
+                        <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-pink-500"></span>Porta cubiertos personalizados</li>
+                    </ul>
+                    <div class="pt-4 border-t border-gray-100">
+                        <span class="text-xs font-semibold text-pink-600 uppercase tracking-wide">Ideal para: Hamburguesas, tacos, perros, arepas</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-10 sm:mt-12 text-center fade-in-up px-0 sm:px-4">
+                <div class="inline-flex items-center gap-2 px-4 sm:px-6 py-3 rounded-full bg-white border border-gray-200 shadow-sm text-gray-600 text-xs sm:text-sm">
+                    <svg class="w-4 h-4 sm:w-5 sm:h-5 text-sigma-magenta flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    <span>Todos nuestros empaques se fabrican bajo pedido con el logo de tu negocio. Mínimos desde 1,000 unidades.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DIFERENCIADORES -->
+    <section id="diferenciadores" class="py-12 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-8 sm:mb-16 fade-in-up">
+                <h2 class="text-xs sm:text-sm font-bold text-sigma-magenta uppercase tracking-wider mb-2">Ventajas Competitivas</h2>
+                <h3 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">¿Por qué elegir nuestros empaques?</h3>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+                <div class="text-center p-6 rounded-2xl sm:rounded-3xl bg-gray-50 border border-gray-100 card-hover fade-in-up">
+                    <div class="w-16 h-16 mx-auto rounded-2xl bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center text-white mb-6 shadow-lg">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Pensados para alimentos</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Empaques diseñados específicamente para contacto directo con alimentos, cumpliendo con normas de seguridad.</p>
+                </div>
+
+                <div class="text-center p-6 rounded-3xl bg-gray-50 border border-gray-100 card-hover fade-in-up" style="animation-delay: 0.1s">
+                    <div class="w-16 h-16 mx-auto rounded-2xl bg-gradient-to-br from-emerald-400 to-teal-600 flex items-center justify-center text-white mb-6 shadow-lg">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Biodegradables y reciclables</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Usamos papeles de 280gr y 300gr que reducen el impacto ambiental y comunican responsabilidad a tus clientes.</p>
+                </div>
+
+                <div class="text-center p-6 rounded-3xl bg-gray-50 border border-gray-100 card-hover fade-in-up" style="animation-delay: 0.2s">
+                    <div class="w-16 h-16 mx-auto rounded-2xl bg-gradient-to-br from-sigma-magenta to-pink-600 flex items-center justify-center text-white mb-6 shadow-lg">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"/></svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Impresión personalizada</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Opciones en 1 tinta o full color (CMYK) con la marca de tu cliente. Tu logo en cada empaque que sale de tu negocio.</p>
+                </div>
+
+                <div class="text-center p-6 rounded-3xl bg-gray-50 border border-gray-100 card-hover fade-in-up" style="animation-delay: 0.3s">
+                    <div class="w-16 h-16 mx-auto rounded-2xl bg-gradient-to-br from-sigma-cyan to-blue-600 flex items-center justify-center text-white mb-6 shadow-lg">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-3">Soporte y asesoría</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Te acompañamos a elegir el empaque correcto según tu producto, volumen y tipo de comida. Diseño incluido.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCESO -->
+    <section id="proceso" class="py-12 sm:py-24 bg-gray-50 relative overflow-hidden">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="text-center max-w-3xl mx-auto mb-8 sm:mb-16 fade-in-up">
+                <h2 class="text-xs sm:text-sm font-bold text-sigma-cyan uppercase tracking-wider mb-2">Cómo Trabajamos</h2>
+                <h3 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4">Tu pedido en 4 pasos simples</h3>
+                <p class="text-base sm:text-lg text-gray-600">Hacemos fácil el proceso de cotización y producción para que recibas tus empaques sin complicaciones.</p>
+            </div>
+
+            <div class="relative">
+                <div class="timeline-line hidden md:block"></div>
+                
+                <div class="space-y-8 sm:space-y-12 relative">
+                    <!-- Paso 1 -->
+                    <div class="flex flex-col md:flex-row items-center justify-between fade-in-up">
+                        <div class="md:w-5/12 md:text-right mb-2 md:mb-0 w-full">
+                            <div class="bg-white p-5 sm:p-6 rounded-2xl shadow-lg border border-gray-100 w-full md:ml-auto md:max-w-md">
+                                <h4 class="text-lg sm:text-xl font-bold text-gray-900 mb-2">1. Nos cuentas tu necesidad</h4>
+                                <p class="text-gray-600 text-sm">Nos describes tus productos: tipo de comida, tamaño, presentación actual y volumen aproximado que necesitas.</p>
+                            </div>
+                        </div>
+                        <div class="md:w-2/12 flex justify-center relative z-10 my-2 md:my-0">
+                            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-br from-sigma-magenta to-pink-500 text-white flex items-center justify-center font-bold text-lg sm:text-xl shadow-lg">1</div>
+                        </div>
+                        <div class="md:w-5/12 hidden md:block"></div>
+                    </div>
+
+                    <!-- Paso 2 -->
+                    <div class="flex flex-col md:flex-row items-center justify-between fade-in-up">
+                        <div class="md:w-5/12 hidden md:block"></div>
+                        <div class="md:w-2/12 flex justify-center relative z-10 my-2 md:my-0">
+                            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-br from-sigma-cyan to-blue-500 text-white flex items-center justify-center font-bold text-lg sm:text-xl shadow-lg">2</div>
+                        </div>
+                        <div class="md:w-5/12 md:text-left mb-2 md:mb-0 w-full">
+                            <div class="bg-white p-5 sm:p-6 rounded-2xl shadow-lg border border-gray-100 w-full md:mr-auto md:max-w-md">
+                                <h4 class="text-lg sm:text-xl font-bold text-gray-900 mb-2">2. Recomendamos el empaque</h4>
+                                <p class="text-gray-600 text-sm">SIGMA te recomienda el tipo de empaque ideal: bolsa, caja, cono, plato o papel parafinado según tu alimento.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Paso 3 -->
+                    <div class="flex flex-col md:flex-row items-center justify-between fade-in-up">
+                        <div class="md:w-5/12 md:text-right mb-2 md:mb-0 w-full">
+                            <div class="bg-white p-5 sm:p-6 rounded-2xl shadow-lg border border-gray-100 w-full md:ml-auto md:max-w-md">
+                                <h4 class="text-lg sm:text-xl font-bold text-gray-900 mb-2">3. Definimos diseño y producción</h4>
+                                <p class="text-gray-600 text-sm">Confirmamos tamaño, tiraje y tipo de impresión (1 tinta o full color). Requieres logo editable en Corel, Illustrator o PDF.</p>
+                            </div>
+                        </div>
+                        <div class="md:w-2/12 flex justify-center relative z-10 my-2 md:my-0">
+                            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-br from-sigma-yellow to-orange-400 text-white flex items-center justify-center font-bold text-lg sm:text-xl shadow-lg">3</div>
+                        </div>
+                        <div class="md:w-5/12 hidden md:block"></div>
+                    </div>
+
+                    <!-- Paso 4 -->
+                    <div class="flex flex-col md:flex-row items-center justify-between fade-in-up">
+                        <div class="md:w-5/12 hidden md:block"></div>
+                        <div class="md:w-2/12 flex justify-center relative z-10 my-2 md:my-0">
+                            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-br from-purple-500 to-indigo-600 text-white flex items-center justify-center font-bold text-lg sm:text-xl shadow-lg">4</div>
+                        </div>
+                        <div class="md:w-5/12 md:text-left mb-2 md:mb-0 w-full">
+                            <div class="bg-white p-5 sm:p-6 rounded-2xl shadow-lg border border-gray-100 w-full md:mr-auto md:max-w-md">
+                                <h4 class="text-lg sm:text-xl font-bold text-gray-900 mb-2">4. Producción y entrega</h4>
+                                <p class="text-gray-600 text-sm">Entre <strong>5 y 14 días hábiles</strong> según el tipo de empaque. Enviamos a todo Colombia. Anticipo del 50% para iniciar.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-10 sm:mt-16 text-center fade-in-up">
+                <div class="flex flex-wrap justify-center gap-3 sm:gap-4">
+                    <div class="flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2 bg-white rounded-full shadow-sm border border-gray-200 text-xs sm:text-sm text-gray-600">
+                        <svg class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-sigma-magenta flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                        Anticipo 50%
+                    </div>
+                    <div class="flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2 bg-white rounded-full shadow-sm border border-gray-200 text-xs sm:text-sm text-gray-600">
+                        <svg class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-sigma-cyan flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                        Tiempos: 5 a 14 días
+                    </div>
+                    <div class="flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2 bg-white rounded-full shadow-sm border border-gray-200 text-xs sm:text-sm text-gray-600">
+                        <svg class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-green-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
+                        Envíos a todo el país
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="py-12 sm:py-24 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-0 left-0 w-96 h-96 bg-sigma-magenta rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"></div>
+            <div class="absolute bottom-0 right-0 w-96 h-96 bg-sigma-cyan rounded-full blur-3xl translate-x-1/2 translate-y-1/2"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-10 sm:gap-16">
+                <div class="fade-in-up">
+                    <h2 class="text-xs sm:text-sm font-bold text-sigma-magentaLight uppercase tracking-wider mb-2">Contacto</h2>
+                    <h3 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">Cotiza tus empaques</h3>
+                    <p class="text-gray-300 text-base sm:text-lg mb-8">Cuéntanos sobre tu negocio y te ayudamos a elegir el empaque perfecto. Respondemos en minutos vía WhatsApp o correo.</p>
+                    
+                    <div class="space-y-5 sm:space-y-6 mb-10">
+                        <div class="flex items-center gap-3 sm:gap-4">
+                            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-white/10 flex items-center justify-center text-sigma-magentaLight flex-shrink-0">
+                                <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            </div>
+                            <div class="min-w-0">
+                                <p class="text-xs sm:text-sm text-gray-400">Correo electrónico</p>
+                                <a href="mailto:sigma.impres@gmail.com" class="text-base sm:text-lg font-semibold hover:text-sigma-magentaLight transition-colors break-all">sigma.impres@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center gap-3 sm:gap-4">
+                            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-white/10 flex items-center justify-center text-green-400 flex-shrink-0">
+                                <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                            </div>
+                            <div class="min-w-0">
+                                <p class="text-xs sm:text-sm text-gray-400">WhatsApp</p>
+                                <a href="https://wa.me/573133043205" target="_blank" class="text-base sm:text-lg font-semibold hover:text-green-400 transition-colors">+57 313 304 3205</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 sm:gap-4">
+                            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-white/10 flex items-center justify-center text-pink-400 flex-shrink-0">
+                                <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                            </div>
+                            <div class="min-w-0">
+                                <p class="text-xs sm:text-sm text-gray-400">Instagram</p>
+                                <a href="https://instagram.com/sigma_empaques" target="_blank" class="text-base sm:text-lg font-semibold hover:text-pink-400 transition-colors break-all">@sigma_empaques</a>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-3 sm:gap-4">
+                            <div class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-white/10 flex items-center justify-center text-blue-400 flex-shrink-0">
+                                <svg class="w-5 h-5 sm:w-6 sm:h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                            </div>
+                            <div class="min-w-0">
+                                <p class="text-xs sm:text-sm text-gray-400">Facebook</p>
+                                <a href="#" class="text-base sm:text-lg font-semibold hover:text-blue-400 transition-colors">Sigma Empaques</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white/5 rounded-2xl p-5 sm:p-6 border border-white/10">
+                        <h4 class="font-bold text-base sm:text-lg mb-4">Formas de pago</h4>
+                        <div class="grid grid-cols-3 gap-3 sm:gap-4">
+                            <div class="bg-white rounded-xl p-3 flex items-center justify-center">
+                                <span class="text-sigma-magenta font-bold text-xs sm:text-sm">Nequi</span>
+                            </div>
+                            <div class="bg-red-500 rounded-xl p-3 flex items-center justify-center">
+                                <span class="text-white font-bold text-xs sm:text-sm">Daviplata</span>
+                            </div>
+                            <div class="bg-blue-800 rounded-xl p-3 flex items-center justify-center">
+                                <span class="text-white font-bold text-xs text-center">Bancolombia<br>Ahorros</span>
+                            </div>
+                        </div>
+                        <p class="text-xs text-gray-400 mt-3 text-center">Cuenta de ahorros Bancolombia: #23137389827</p>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 text-gray-800 shadow-2xl fade-in-up" style="animation-delay: 0.2s">
+                    <h4 class="text-xl sm:text-2xl font-bold mb-6">Solicitar cotización</h4>
+                    <form id="cotizacionForm" class="space-y-4 sm:space-y-5" onsubmit="event.preventDefault(); enviarFormulario();">
+                        <div class="grid sm:grid-cols-2 gap-4 sm:gap-5">
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Nombre / Empresa</label>
+                                <input type="text" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-sigma-magenta focus:ring-2 focus:ring-pink-100 outline-none transition-all" placeholder="Tu nombre o empresa">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Teléfono / WhatsApp</label>
+                                <input type="tel" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-sigma-magenta focus:ring-2 focus:ring-pink-100 outline-none transition-all" placeholder="300 000 0000">
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Tipo de negocio</label>
+                            <select class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-sigma-magenta focus:ring-2 focus:ring-pink-100 outline-none transition-all">
+                                <option>Restaurante</option>
+                                <option>Comida rápida</option>
+                                <option>Panadería</option>
+                                <option>Cafetería</option>
+                                <option>Food truck</option>
+                                <option>Otro</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-3">Tipos de empaques que te interesan</label>
+                            <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3">
+                                <label class="flex items-center gap-2 p-3 rounded-lg border border-gray-200 cursor-pointer hover:border-sigma-magenta transition-colors">
+                                    <input type="checkbox" class="w-4 h-4 text-sigma-magenta rounded focus:ring-sigma-magenta">
+                                    <span class="text-sm">Bolsas</span>
+                                </label>
+                                <label class="flex items-center gap-2 p-3 rounded-lg border border-gray-200 cursor-pointer hover:border-sigma-magenta transition-colors">
+                                    <input type="checkbox" class="w-4 h-4 text-sigma-magenta rounded focus:ring-sigma-magenta">
+                                    <span class="text-sm">Cajas</span>
+                                </label>
+                                <label class="flex items-center gap-2 p-3 rounded-lg border border-gray-200 cursor-pointer hover:border-sigma-magenta transition-colors">
+                                    <input type="checkbox" class="w-4 h-4 text-sigma-magenta rounded focus:ring-sigma-magenta">
+                                    <span class="text-sm">Conos</span>
+                                </label>
+                                <label class="flex items-center gap-2 p-3 rounded-lg border border-gray-200 cursor-pointer hover:border-sigma-magenta transition-colors">
+                                    <input type="checkbox" class="w-4 h-4 text-sigma-magenta rounded focus:ring-sigma-magenta">
+                                    <span class="text-sm">Papeles</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">Mensaje / Detalles del pedido</label>
+                            <textarea rows="3" class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-sigma-magenta focus:ring-2 focus:ring-pink-100 outline-none transition-all resize-none text-sm sm:text-base" placeholder="Cuéntanos qué necesitas: cantidades, tipo de comida, si ya tienes logo..."></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full py-3 sm:py-4 rounded-xl bg-gradient-to-r from-sigma-magenta to-pink-600 text-white font-bold text-base sm:text-lg hover:shadow-xl hover:scale-[1.02] transition-all flex items-center justify-center gap-2">
+                            <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"/></svg>
+                            Enviar solicitud de cotización
+                        </button>
+
+                        <a href="https://wa.me/573133043205?text=Hola%20SIGMA,%20quiero%20cotizar%20empaques%20para%20mi%20negocio" target="_blank" class="w-full py-3 sm:py-4 rounded-xl border-2 border-green-500 text-green-600 font-bold text-base sm:text-lg hover:bg-green-50 transition-all flex items-center justify-center gap-2">
+                            <svg class="w-4 h-4 sm:w-5 sm:h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                            Escribir directo a WhatsApp
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-950 text-gray-400 py-8 sm:py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                <div class="flex items-center gap-3">
+                    <img src="assets/images/logo-sigma.png" alt="SIGMA" class="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover shadow-lg">
+                    <div>
+                        <p class="text-white font-bold text-sm sm:text-base">SIGMA Parafinado y Empaques</p>
+                        <p class="text-xs">Colombia</p>
+                    </div>
+                </div>
+                <div class="text-xs sm:text-sm text-center md:text-right">
+                    <p>© 2026 SIGMA Parafinado y Empaques. Todos los derechos reservados.</p>
+                    <p class="mt-1">Empaques biodegradables y parafinados para alimentos.</p>
+                </div>
+            </div>
+            <div class="mt-8 pt-6 border-t border-gray-800 text-center">
+                <a href="https://goldenrod-bee-973005.hostingersite.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 hover:opacity-80 transition-opacity" title="VRS Digital - Agencia de Diseño">
+                    <span class="text-xs text-gray-500">Diseñado por</span>
+                    <img src="assets/images/logo-vrs.png" alt="VRS Digital" class="h-6 sm:h-7 w-auto">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
