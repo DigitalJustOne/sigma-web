@@ -2,12 +2,16 @@
   "name": "sigma-web",
   "version": "1.0.0",
   "description": "Sitio web SIGMA Parafinado y Empaques",
-  "main": "index.html",
+  "type": "module",
   "scripts": {
-    "start": "npx serve .",
-    "build": "echo 'Static site - no build required'"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": ["sigma", "empaques", "parafinado"],
   "author": "SIGMA Parafinado y Empaques",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
 }

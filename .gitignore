@@ -1,3 +1,4 @@
 node_modules/
+dist/
 serve.js
 sigma_web.html
