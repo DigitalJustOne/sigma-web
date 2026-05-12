@@ -1,0 +1,13 @@
+{
+  "name": "sigma-web",
+  "version": "1.0.0",
+  "description": "Sitio web SIGMA Parafinado y Empaques",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'Static site - no build required'"
+  },
+  "keywords": ["sigma", "empaques", "parafinado"],
+  "author": "SIGMA Parafinado y Empaques",
+  "license": "MIT"
+}
